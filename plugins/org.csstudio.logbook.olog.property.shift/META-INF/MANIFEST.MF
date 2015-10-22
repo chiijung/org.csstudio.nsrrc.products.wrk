@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Olog Shift property
+Bundle-SymbolicName: org.csstudio.logbook.olog.property.shift;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.csstudio.logbook.olog.property.shift.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.csstudio.logbook.ui,
+ org.csstudio.logbook,
+ gov.bnl.shiftClient,
+ org.csstudio.shift,
+ org.csstudio.logbook.viewer
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.csstudio.ui.util.dialogs,
+ org.eclipse.wb.swt, org.csstudio.logbook.ui

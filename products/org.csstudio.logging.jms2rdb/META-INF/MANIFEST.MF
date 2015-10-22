@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JMS to RDB Sender
+Bundle-SymbolicName: org.csstudio.logging.jms2rdb;singleton:=true
+Bundle-Version: 4.0.0.qualifier
+Bundle-Vendor: Kay Kasemir <kasemirk@ornl.gov> - SNS
+Bundle-Description: Tool that writes JMS messages (log, alarm, ...) to an RDB
+Require-Bundle: org.junit,
+ org.eclipse.core.runtime,
+ org.csstudio.logging,
+ org.csstudio.utility.httpd,
+ org.csstudio.data,
+ org.csstudio.platform.utility.rdb,
+ org.csstudio.platform.utility.jms,
+ org.csstudio.apputil,
+ org.csstudio.security,
+ org.eclipse.osgi.services
+Import-Package: javax.jms,
+ javax.servlet,
+ javax.servlet.http
+Bundle-Activator: org.csstudio.logging.jms2rdb.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

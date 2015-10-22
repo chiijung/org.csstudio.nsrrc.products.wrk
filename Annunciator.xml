@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+     Alarm configuration snapshot Wed Apr 01 11:00:47 CST 2015
+     URL : jdbc:mysql://localhost/ALARM
+     Root: Annunciator
+  -->
+<config name="Annunciator">
+    <component name="Area">
+        <component name="System">
+            <guidance>
+                <title>System Info</title>
+                <details>This is info for the system and PVs below it</details>
+            </guidance>
+            <pv name="PV1">
+                <description>Demo 1</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+                <guidance>
+                    <title>Info 1</title>
+                    <details>Do something</details>
+                </guidance>
+                <guidance>
+                    <title>Info 2</title>
+                    <details>Do something else</details>
+                </guidance>
+            </pv>
+            <pv name="PV2">
+                <description>Demo 2</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+                <guidance>
+                    <title>Info 1</title>
+                    <details>Do something</details>
+                </guidance>
+                <guidance>
+                    <title>Info 2</title>
+                    <details>Do something else</details>
+                </guidance>
+            </pv>
+        </component>
+    </component>
+</config>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AlarmConfigTool
+Bundle-SymbolicName: org.csstudio.alarm.beast.configtool;singleton:=true
+Bundle-Version: 4.0.0.qualifier
+Bundle-Vendor: Kay Kasemir <kasemirk@ornl.gov>, Xihui Chen <chenx1@ornl.gov> - SNS
+Bundle-Description: BEAST Command-line configuration tool
+Require-Bundle: org.junit,
+ org.eclipse.core.runtime,
+ org.csstudio.logging,
+ org.csstudio.security,
+ org.csstudio.apputil,
+ org.csstudio.alarm.beast
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

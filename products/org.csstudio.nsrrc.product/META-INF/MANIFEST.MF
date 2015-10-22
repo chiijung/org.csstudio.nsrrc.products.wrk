@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CSS Product for NSRRC
+Bundle-SymbolicName: org.csstudio.nsrrc.product;singleton:=true
+Bundle-Version: 4.0.0.qualifier
+Bundle-Vendor: Kay Kasemir <kasemirk@ornl.gov>, Xihui Chen <chenx1@ornl.gov> - SNS
+Require-Bundle: org.junit,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.ui,
+ org.eclipse.ui.intro,
+ org.eclipse.ui.intro.universal,
+ org.eclipse.ui.ide,
+ org.csstudio.logging,
+ org.csstudio.logging.ui,
+ org.csstudio.startup,
+ org.csstudio.utility.product,
+ org.csstudio.workspace,
+ org.csstudio.apputil.ui,
+ org.csstudio.ui.menu.app,
+ org.csstudio.ui.menu.web,
+ org.csstudio.security,
+ org.csstudio.security.ui,
+ org.eclipse.equinox.security,
+ org.eclipse.equinox.security.ui
+Eclipse-PlatformFilter: (| (osgi.ws=win32)(osgi.ws=cocoa)(osgi.ws=gtk))
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Description: CSS for generic EPICS users
+Bundle-ActivationPolicy: lazy

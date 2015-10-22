@@ -1,0 +1,7 @@
+target/
+git-commands-for-upload-sources-or-directories
+*~
+*.log
+*.txt
+*.bak
+*.sav

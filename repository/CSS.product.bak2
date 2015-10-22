@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Css" uid="css" id="org.csstudio.nsrrc.product.product" application="org.csstudio.nsrrc.application" version="3.2.11.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/org.csstudio.nsrrc.product/icons/aboutSide.png"/>
+      <text>
+         Control System Studio (CSS) is a combined
+effort of several parties, including
+- DESY (Hamburg, Germany)
+- SNS (Oak Ridge, TN)
+- BNL (Brookhaven, NY)
+
+It provides a collection of control system
+tools in a common environment, based
+on Eclipse.
+
+See http://ics-web.sns.ornl.gov/css
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>--launcher.defaultAction
+openFile</programArgs>
+      <vmArgs>-Xmx1024m
+-XX:MaxPermSize=128M
+-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
+-Dorg.apache.commons.logging.simplelog.defaultlog=fatal</vmArgs>
+   </launcherArgs>
+<!--
+   <windowImages i16="/org.csstudio.nsrrc.product/icons/css16.png" i32="/org.csstudio.nsrrc.product/icons/css32.png" i48="/org.csstudio.nsrrc.product/icons/css48.png" i64="/org.csstudio.nsrrc.product/icons/css64.png" i128="/org.csstudio.nsrrc.product/icons/css128.png"/>
+-->
+   <windowImages i16="/product/plugins/org.csstudio.product/icons/css16.png" i32="/product/plugins/org.csstudio.product/icons/css32.png" i48="/product/plugins/org.csstudio.product/icons/css48.png" i64="/product/plugins/org.csstudio.product/icons/css64.png" i128="/product/plugins/org.csstudio.product/icons/css128.png"/>
+
+<!--
+   <splash
+      location="org.csstudio.nsrrc.product"
+      startupProgressRect="20,220,340,15"
+      startupMessageRect="20,200,340,20"
+      startupForegroundColor="FFFFFF" />
+   <launcher name="css">
+      <linux icon="/org.csstudio.nsrrc.product/icons/css48.xpm"/>
+      <macosx icon="/org.csstudio.nsrrc.product/icons/css.icns"/>
+      <solaris/>
+      <win useIco="true">
+         <ico path="/org.csstudio.nsrrc.product/icons/css.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <intro introId="org.eclipse.ui.intro.universal"/>
+
+   <vm>
+   </vm>
+-->
+
+   <splash
+      location="org.csstudio.nsrrc.product"
+      startupProgressRect="20,220,340,15"
+      startupMessageRect="20,200,340,20"
+      startupForegroundColor="FFFFFF" />
+   <launcher name="css">
+      <linux icon="/icons/css48.xpm"/>
+      <macosx icon="/icons/css.icns"/>
+      <solaris/>
+      <win useIco="true">
+         <ico path="/icons/css.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <intro introId="org.eclipse.ui.intro.universal"/>
+
+   <vm>
+   </vm>
+
+   <license>
+        <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        <text>
+   You must accept this license agreement in order to install and
+use this
+software.
+THIS SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN &quot;../AS IS&quot;
+BASIS. 
+WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+For details, see http://www.eclipse.org/legal/epl-v10.html
+         </text>
+   </license>
+
+   <plugins>
+   </plugins>
+
+   <features>
+<!--      <feature id="org.eclipse.rcp" version="3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
+      <feature id="org.eclipse.equinox.p2.user.ui" version="2.1.2.R37x_v20110815-1155-6-Bk8pYWZz0qUTX5I15GZWwbXkrl"/>
+-->
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.equinox.p2.user.ui"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature"/>
+      <feature id="org.csstudio.libs.feature"/>
+      <feature id="org.csstudio.eclipse.feature"/>
+      <feature id="org.csstudio.core.feature"/>
+      <feature id="org.csstudio.utilities.feature"/>
+<!--      <feature id="org.csstudio.nsrrc.feature"/> -->
+      <feature id="org.csstudio.nsls2.core.feature"/>
+      <feature id="org.csstudio.nsls2.applications.feature"/>
+<!--      <feature id="org.csstudio.sns.feature.core"/> -->
+   </features>
+
+
+</product>

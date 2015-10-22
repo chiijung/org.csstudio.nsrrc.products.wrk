@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Engine Plug-in
+Bundle-SymbolicName: org.csstudio.archive.engine;singleton:=true
+Bundle-Version: 4.0.0.qualifier
+Bundle-Activator: org.csstudio.archive.engine.Activator
+Bundle-Vendor: Kay Kasemir <kasemirk@ornl.gov> - SNS
+Bundle-Description: Archive Sample Engine, writes data to RDB
+Require-Bundle: org.junit,
+ org.eclipse.core.runtime,
+ javax.servlet,
+ org.csstudio.logging,
+ org.csstudio.security,
+ org.csstudio.apputil,
+ org.csstudio.utility.httpd,
+ org.csstudio.archive.config,
+ org.csstudio.archive.writer,
+ org.csstudio.utility.pvmanager,
+ org.csstudio.utility.pvmanager.vtype,
+ org.csstudio.utility.pvmanager.loc,
+ org.csstudio.utility.pvmanager.sim,
+ org.csstudio.utility.test
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

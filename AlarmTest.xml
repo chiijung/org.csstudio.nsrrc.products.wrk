@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+     Alarm configuration snapshot 2012/04/19 09:48:11.275000000
+     URL : jdbc:postgresql://localhost/alarm
+     Root: AlarmTest
+  -->
+<config name="AlarmTest">
+    <component name="Heater">
+        <component name="Control">
+            <guidance>
+                <title>Control Subsystem</title>
+                <details>Trouble in heater control subsystem. Do something!</details>
+            </guidance>
+            <pv name="wang:setpoint">
+                <description>Temperature Setpoint</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+            </pv>
+        </component>
+        <component name="Tank">
+            <guidance>
+                <title>Tank Subsystem</title>
+                <details>Trouble in heater tank subsystem. Do something!</details>
+            </guidance>
+            <pv name="wang:tank">
+                <description>Tank Temperature or INVALID</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+            </pv>
+        </component>
+    </component>
+    <component name="VirtualLinac">
+        <component name="Cathode">
+            <guidance>
+                <title>Cathode Subsystem</title>
+                <details>Trouble in virtual linac cathode subsystem. Do something!</details>
+            </guidance>
+            <pv name="wang:cathodeTempM">
+                <description>Cathode Measured Temp</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+            </pv>
+            <pv name="wang:cathodeCurrentC">
+                <description>Cathode Current Control</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+            </pv>
+        </component>
+    </component>
+</config>

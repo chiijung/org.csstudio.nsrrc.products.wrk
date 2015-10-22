@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.nsrrc.archive.engine.feature"
+      label="CS-Studio nsrrc Product Configuration"
+      version="3.3.3.qualifier"
+      provider-name="CS-Studio Collaboration &lt;cs-studio-core@lists.sourceforge.net&gt;">
+
+   <description>
+      Plugins specific to an NSRRC product.
+   </description>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      You must accept this license agreement in order to install and
+use this
+software.
+THIS SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN &quot;../AS IS&quot;
+BASIS. 
+WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+For details, see http://www.eclipse.org/legal/epl-v10.html
+   </license>
+<!--
+   <plugins>
+      <plugin id="com.ibm.icu"/>
+      <plugin id="javax.servlet"/>
+      <plugin id="org.antlr.runtime"/>
+      <plugin id="org.csstudio.apputil"/>
+      <plugin id="org.csstudio.archive.config"/>
+      <plugin id="org.csstudio.archive.config.rdb"/>
+      <plugin id="org.csstudio.archive.engine"/>
+      <plugin id="org.csstudio.archive.rdb"/>
+      <plugin id="org.csstudio.archive.vtype"/>
+      <plugin id="org.csstudio.archive.writer"/>
+      <plugin id="org.csstudio.archive.writer.rdb"/>
+      <plugin id="org.csstudio.data"/>
+      <plugin id="org.csstudio.java"/>
+      <plugin id="org.csstudio.logging"/>
+      <plugin id="org.csstudio.platform.libs.epics"/>
+      <plugin id="org.csstudio.platform.libs.jdbc"/>
+      <plugin id="org.csstudio.platform.libs.jms"/>
+      <plugin id="org.csstudio.platform.utility.rdb"/>
+      <plugin id="org.csstudio.security"/>
+      <plugin id="org.csstudio.utility.httpd"/>
+      <plugin id="org.csstudio.utility.pvmanager"/>
+      <plugin id="org.csstudio.utility.pvmanager.epics"/>
+      <plugin id="org.csstudio.utility.pvmanager.sim"/>
+      <plugin id="org.csstudio.utility.pvmanager.vtype"/>
+      <plugin id="org.csstudio.workspace"/>
+      <plugin id="org.eclipse.core.contenttype"/>
+      <plugin id="org.eclipse.core.expressions"/>
+      <plugin id="org.eclipse.core.jobs"/>
+      <plugin id="org.eclipse.core.runtime"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+      <plugin id="org.eclipse.equinox.app"/>
+      <plugin id="org.eclipse.equinox.common"/>
+      <plugin id="org.eclipse.equinox.ds"/>
+      <plugin id="org.eclipse.equinox.http.jetty"/>
+      <plugin id="org.eclipse.equinox.http.servlet"/>
+      <plugin id="org.eclipse.equinox.preferences"/>
+      <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.equinox.security"/>
+-->
+<!--
+      <plugin id="org.eclipse.equinox.security.macosx" fragment="true"/>
+      <plugin id="org.eclipse.equinox.security.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
+-->
+<!--
+      <plugin id="org.eclipse.equinox.util"/>
+      <plugin id="org.eclipse.help"/>
+      <plugin id="org.eclipse.osgi"/>
+      <plugin id="org.eclipse.osgi.services"/>
+      <plugin id="org.epics.util"/>
+      <plugin id="org.epics.vtype"/>
+      <plugin id="org.hamcrest.core"/>
+      <plugin id="org.junit"/>
+      <plugin id="org.mortbay.jetty.server"/>
+      <plugin id="org.mortbay.jetty.util"/>
+   </plugins>
+
+      <plugin
+	id="org.csstudio.archive.engine"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.archive.rdb"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.archive.vtype"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.archive.writer"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.archive.writer.rdb"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.utility.httpd"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.archive.config"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="javax.servlet"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.epics.util"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.epics.vtype"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.help"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.vtype.pv"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.csstudio.platform.libs.epics"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.epics.pvaccess"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.epics.pvdata"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.core.expressions"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="com.ibm.icu"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.equinox.http.jetty"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.equinox.http.servlet"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.jetty.continuation"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.jetty.http"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.jetty.io"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.jetty.security"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.jetty.server"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.jetty.servlet"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+	
+      <plugin
+	id="org.eclipse.jetty.util"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+-->
+
+      <plugins>
+	<plugin id="com.ibm.icu"/>
+	<plugin id="com.ibm.icu.base"/>
+	<plugin id="javax.servlet"/>
+	<plugin id="javax.xml"/>
+	<plugin id="org.antlr.runtime"/>
+	<plugin id="org.csstudio.apputil"/>
+	<plugin id="org.csstudio.archive.config"/>
+	<plugin id="org.csstudio.archive.config.rdb"/>
+	<plugin id="org.csstudio.archive.engine"/>
+	<plugin id="org.csstudio.archive.rdb"/>
+	<plugin id="org.csstudio.archive.vtype"/>
+	<plugin id="org.csstudio.archive.writer"/>
+	<plugin id="org.csstudio.archive.writer.rdb"/>
+	<plugin id="org.csstudio.data"/>
+	<plugin id="org.csstudio.java"/>
+	<plugin id="org.csstudio.logging"/>
+	<plugin id="org.csstudio.platform.libs.epics"/>
+	<plugin id="org.csstudio.platform.libs.jdbc"/>
+	<plugin id="org.csstudio.platform.libs.jms"/>
+	<plugin id="org.csstudio.platform.utility.rdb"/>
+	<plugin id="org.csstudio.security"/>
+	<plugin id="org.csstudio.utility.httpd"/>
+	<plugin id="org.csstudio.vtype.pv"/>
+	<plugin id="org.csstudio.workspace"/>
+	<plugin id="org.eclipse.core.contenttype"/>
+	<plugin id="org.eclipse.core.expressions"/>
+	<plugin id="org.eclipse.core.jobs"/>
+	<plugin id="org.eclipse.core.runtime"/>
+	<plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+	<plugin id="org.eclipse.equinox.app"/>
+	<plugin id="org.eclipse.equinox.common"/>
+	<plugin id="org.eclipse.equinox.ds"/>
+	<plugin id="org.eclipse.equinox.http.jetty"/>
+	<plugin id="org.eclipse.equinox.http.servlet"/>
+	<plugin id="org.eclipse.equinox.preferences"/>
+	<plugin id="org.eclipse.equinox.registry"/>
+	<plugin id="org.eclipse.equinox.security"/>
+<!--
+	<plugin id="org.eclipse.equinox.security.macosx" fragment="true"/>
+	<plugin id="org.eclipse.equinox.security.win32.x86" fragment="true"/>
+	<plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
+-->
+	<plugin id="org.eclipse.equinox.util"/>
+	<plugin id="org.eclipse.help"/>
+	<plugin id="org.eclipse.jetty.continuation"/>
+	<plugin id="org.eclipse.jetty.http"/>
+	<plugin id="org.eclipse.jetty.io"/>
+	<plugin id="org.eclipse.jetty.security"/>
+	<plugin id="org.eclipse.jetty.server"/>
+	<plugin id="org.eclipse.jetty.servlet"/>
+	<plugin id="org.eclipse.jetty.util"/>
+	<plugin id="org.eclipse.osgi"/>
+	<plugin id="org.eclipse.osgi.compatibility.state" fragment="true"/>
+	<plugin id="org.eclipse.osgi.services"/>
+	<plugin id="org.epics.pvaccess"/>
+	<plugin id="org.epics.pvdata"/>
+	<plugin id="org.epics.util"/>
+	<plugin id="org.epics.vtype"/>
+	<plugin id="org.hamcrest.core"/>
+	<plugin id="org.junit"/>
+      </plugins>
+<!-- ******************************************** For version 4.1
+      <plugin
+	id="com.ibm.icu"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="com.ibm.icu.base"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+-->
+      <plugin
+	id="javax.servlet"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="javax.xml"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.antlr.runtime"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.apputil"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.archive.config"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.archive.config.rdb"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.archive.engine"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.archive.rdb"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.archive.vtype"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.archive.writer"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.archive.writer.rdb"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.data"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.java"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.logging"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.platform.libs.epics"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.platform.libs.jdbc"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.platform.libs.jms"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.platform.utility.rdb"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+<!-- ******************************************** For version 4.1
+      <plugin
+	id="org.csstudio.security"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+-->
+      <plugin
+	id="org.csstudio.utility.httpd"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.csstudio.vtype.pv"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+<!-- ********************************************* For version 4.1
+      <plugin
+	id="org.csstudio.workspace"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.core.contenttype"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.core.expressions"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.core.jobs"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.core.runtime"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+-->
+      <plugin
+	id="org.eclipse.core.runtime.compatibility.registry"
+	fragment="true"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+<!-- ********************************************* For version 4.1
+      <plugin
+	id="org.eclipse.equinox.app"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.equinox.common"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.equinox.ds"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+-->
+      <plugin
+	id="org.eclipse.equinox.http.jetty"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.equinox.http.servlet"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+<!-- ********************************************* For version 4.1
+      <plugin
+	id="org.eclipse.equinox.preferences"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+-->
+      <plugin
+	id="org.eclipse.equinox.registry"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.equinox.security"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.equinox.util"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.help"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.jetty.continuation"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.jetty.http"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.jetty.io"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.jetty.security"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.jetty.server"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.jetty.servlet"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.jetty.util"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+<!-- ********************************************* For version 4.1
+      <plugin
+	id="org.eclipse.osgi"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+-->
+      <plugin
+	id="org.eclipse.osgi.compatibility.state"
+	fragment="true"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.eclipse.osgi.services"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.epics.pvaccess"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.epics.pvdata"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.epics.util"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.epics.vtype"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.hamcrest.core"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+
+      <plugin
+	id="org.junit"
+	download-size="0"
+	install-size="0"
+	version="0.0.0"
+	unpack="false"/>
+</feature>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+     Alarm configuration snapshot 2012/04/12 15:47:42.403000000
+     URL : jdbc:postgresql://localhost/alarm
+     Root: demo
+  -->
+<config name="Demo">
+    <component name="Simulated">
+        <pv name="sim://ramp">
+            <description>Ramp</description>
+            <latching>true</latching>
+            <annunciating>true</annunciating>
+        </pv>
+    </component>
+    <component name="RFQ">
+        <component name="Vacuum">
+            <pv name="RFQ_Vac:Pump1:Pressure">
+                <description>Pump 1</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+            </pv>
+            <pv name="RFQ_Vac:Pump2:Pressure">
+                <description>Pump 2</description>
+                <latching>true</latching>
+                <annunciating>true</annunciating>
+            </pv>
+        </component>
+    </component>
+</config>

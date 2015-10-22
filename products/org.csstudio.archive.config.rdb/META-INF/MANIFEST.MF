@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Archive configuration stored in RDB
+Bundle-Description: Archive configuration stored in RDB
+Bundle-SymbolicName: org.csstudio.archive.config.rdb;singleton:=true
+Bundle-Version: 4.0.0.qualifier
+Bundle-Vendor: Kay Kasemir <kasemirk@ornl.gov> - SNS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.junit,
+ org.eclipse.core.runtime,
+ org.csstudio.platform.utility.rdb,
+ org.csstudio.archive.config,
+ org.csstudio.logging,
+ org.csstudio.apputil,
+ org.csstudio.archive.rdb
+Export-Package: org.csstudio.archive.config.rdb
