@@ -11,10 +11,12 @@
   <packaging>pom</packaging>
   <modules>
     <module>org.csstudio.nsrrc.product</module>
+<!--
     <module>org.csstudio.alarm.beast.server</module>
     <module>org.csstudio.alarm.beast.configtool</module>
     <module>org.csstudio.archive.engine</module>
     <module>org.csstudio.archive.config.rdb</module>
     <module>org.csstudio.logging.jms2rdb</module>
+-->
   </modules>
 </project>
